@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Проект "Комменты"</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <ul class="comments"></ul>
+            <div class="add-form">
+                <input
+                    type="text"
+                    class="add-form-name"
+                    placeholder="Введите ваше имя"
+                    id="name__txt"
+                />
+                <textarea
+                    class="add-form-text"
+                    placeholder="Введите ваш комментарий"
+                    rows="4"
+                    id="comment__txt"
+                ></textarea>
+                <div class="add-form-row">
+                    <button id="comment__btn" class="add-form-button">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="modules/main.js"></script>
+    </body>
+</html>
+<!--  Вроде все работает как нужно -->
